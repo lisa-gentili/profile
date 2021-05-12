@@ -1,0 +1,201 @@
+html {
+	scroll-behavior: smooth;
+}
+
+h1{
+	color: #ABD1B5;
+	font-size:  100px;
+	font-family: futura;
+	letter-spacing: 40px;
+	text-align: center;
+
+}
+
+
+h2 {
+		font-family: futura;
+		font-size:  50px ;
+		font-weight: 900;
+		color: #293133;
+}
+
+@media (max-width: 960px) {
+	.all {
+		width:700px;
+	}
+}
+
+@media (max-width: 760px) {
+	.all {
+		width:600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.all {
+		width: 300px;
+	}
+}
+
+body {
+		background:linear-gradient(#F3DE8A, white, #F3DE8A, white);
+}
+
+ul {
+		padding: 0;
+}
+
+
+li {
+		list-style: none;
+}
+
+
+.all {
+		width : 1300px  ;
+		margin: 40px auto;
+		/* background:linear-gradient(#F3DE8A, white, #F3DE8A, white);*/
+}
+
+
+.haut {
+
+		color:white;
+		background-color:white;
+		background-image:url(images/msl.jpg);
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+		background-position:center center;
+		background-size: 100% ;
+
+		font-family: LingWai TC ;
+		font-size:  50px ;
+		font-weight: 900;
+		text-align : center;
+
+}
+
+
+
+#lisa {
+  		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+  		width: 300px;
+  		height: 350px;
+  		border-radius: 50%;
+  		object-fit: cover;
+
+     		-webkit-transition: all 0.2s;
+     		-moz-transition: all 0.2s;
+     		-ms-transition: all 0.2s;
+     		-o-transition: all 0.2s;
+     		transition: all 0.2s;
+}
+
+
+
+#lisa:hover {
+
+     transform:scale(1.2);
+}
+
+
+
+#logo {
+		height:30px;
+		width :auto;
+}
+
+
+.hobbies {
+
+	background-color: #C1CEFE;
+	font-family: futura;
+	font-size:  20px ;
+}
+
+
+
+#btn {
+
+	background-color: #242038;
+	padding : 8px 20px;
+	color:white;
+	transition:all 0.5s;
+	text-decoration:none
+
+}
+
+#btn:hover {
+  color : #FFD131;
+  font-size:30px;
+}
+
+#btn:active {
+  color: hotpink;
+ }
+
+.education {
+
+	background-color: #F3EEC3;
+	font-family: futura;
+	font-size:  20px ;
+}
+
+.follow{
+
+	background-color: #B0D0D3;
+	font-family: futura;
+	font-size:  20px ;
+
+
+}
+
+.skills{
+
+	background-color: #fcb8a9;
+	font-family: futura;
+	font-size:  20px ;
+}
+
+
+
+.experience{
+
+	background-color: #D6efff;
+	font-family: futura;
+	font-size:  20px ;
+}
+
+
+.hobbies, .education, .follow, .skills, .experience {
+
+margin: 40px;
+padding : 20x 30px;
+border: 5px solid grey;
+text-align: center;
+border-radius: 30px ;
+color: #293133;
+}
+
+
+.follow a {
+	text-decoration:none;
+	color: white;
+}
+
+
+
+.follow a:hover {
+
+  			color : #FFD131;
+}
+
+.follow a:active {
+
+  			color: hotpink;
+ }
+
+
+
